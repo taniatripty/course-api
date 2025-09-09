@@ -90,7 +90,7 @@ We included a ready-to-use Postman Collection so you can easily test all endpoin
 
 - Import [`CourseManagementAPI.postman_collection.json`](./course-management-api%20Copy.postman_collection.json) into Postman.
 - Update the `{{baseUrl}}` variable to:
-  - `https://course-api-one.vercel.app/` (develop link)
+  - `https://course-api-one.vercel.app/` (deploy link)
  
 - Add your JWT token in the `Authorization` tab → `Bearer Token` for protected routes.
 
