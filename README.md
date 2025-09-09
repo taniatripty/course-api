@@ -60,6 +60,24 @@ The system is designed for **scalability**, **security**, and easy integration w
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/course-management-api.git
+git clone https://github.com/taniatripty/course-api.git
 cd course-management-api
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3.Configure environment variables (.env.local file)
+```bash
+PORT=5000
+MONGO_URI=<your-mongodb-connection-string>
+DB_NAME=course
+JWT_SECRET=<your-jwt-secret>
+JWT_EXPIRES_IN=25d
+BCRYPT_SALT_ROUNDS=10
+```
+### 4.Run locally
+```bash
+npm run dev
 ```
