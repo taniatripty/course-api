@@ -1,5 +1,8 @@
 # Course Management API
 
+## 🌐 Live Demo
+[Deploy Link](https://course-api-one.vercel.app/)
+
 ## Project Overview
 The **Course Management API** is a fully-featured backend system built with **Node.js, Express.js, and MongoDB** (without Mongoose).  
 It provides a robust platform for managing courses and users, handling **authentication, course management, and course purchases**. The API is designed using the **MVC pattern**, ensuring a clean separation between routes, controllers, and database logic.  
@@ -12,7 +15,7 @@ This API supports:
 - Secure purchase system preventing duplicate purchases
 - Viewing purchased courses with detailed course information
 
-The system is designed for **scalability**, **security**, and easy integration with any frontend, including React, Vue, or mobile apps.
+
 
 ---
 
@@ -81,3 +84,14 @@ BCRYPT_SALT_ROUNDS=10
 ```bash
 npm run dev
 ```
+## 📩 Postman Collection
+
+We included a ready-to-use Postman Collection so you can easily test all endpoints.
+
+- Import [`CourseManagementAPI.postman_collection.json`](./course-management-api%20Copy.postman_collection.json) into Postman.
+- Update the `{{baseUrl}}` variable to:
+  - `https://course-api-one.vercel.app/` (develop link)
+ 
+- Add your JWT token in the `Authorization` tab → `Bearer Token` for protected routes.
+
+

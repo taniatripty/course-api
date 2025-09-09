@@ -36,3 +36,4 @@ exports.getMyPurchases = async (req, res) => {
     .toArray();
   res.json(purchases);
 };
+

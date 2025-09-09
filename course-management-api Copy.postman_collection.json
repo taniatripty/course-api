@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "3f80b42d-555b-4554-98ff-f7d228dec710",
+		"name": "course-management-api Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44841036",
+		"_collection_link": "https://taniatripty.postman.co/workspace/4412d1d6-6452-403b-aff4-ff7de76c8f2e/collection/44841036-3f80b42d-555b-4554-98ff-f7d228dec710?action=share&source=collection_link&creator=44841036"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
