@@ -25,11 +25,7 @@ app.use("/api/purchases", purchaseRoutes);
 
 app.use(errorHandler);
 
-// connectDB(process.env.MONGO_URI, process.env.DB_NAME).then(() => {
-//   app.listen(process.env.PORT, () => {
-//     console.log(` Server running on port ${process.env.PORT}`);
-//   });
-// });
+
 module.exports = async (req, res) => {
   if (!global.__DB_CONNECTED__) {
     await connectDB(process.env.MONGO_URI, process.env.DB_NAME);
